@@ -1,4 +1,4 @@
-from services.product_service import ProductsService
+from app.services.product_service import ProductsService
 
 class ProductController:
     def __init__(self):

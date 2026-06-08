@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from controllers.product_controller import ProductController
-from models.product_model import Product,UpdateProduct,SellRequest
+from app.controllers.product_controller import ProductController
+from app.models.product_model import Product,UpdateProduct,SellRequest
 
 router = APIRouter()
 controller = ProductController()
